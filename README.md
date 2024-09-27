@@ -3,9 +3,9 @@ This repository contains the content for a tech talk focused on writing test cas
 
 ## Contents 
 In this example I have covered the basics of writing test cases with jest.
-1. Writing test cases for functions test() and grouping using describe().
+1. Writing test cases for functions using test() and grouping using describe().
 2. Writing Postive and Negative testcases example.
-3. Mocking function calls and validating invocation.
+3. Mocking function calls and validating function invocation.
 4. Snapshot testing example.
 5. Generating Code Coverage reports.
 
