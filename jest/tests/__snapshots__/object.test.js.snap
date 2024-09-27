@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of invalid person details 1`] = `
+[
+  {
+    "age": "thirty-two",
+    "email": "",
+    "gender": "male",
+    "name": "John Doe",
+    "phone": "",
+  },
+  {
+    "age": "thirty-one",
+    "email": "",
+    "gender": "female",
+    "name": "Jane Doe",
+    "phone": "",
+  },
+]
+`;
+
+exports[`snapshot of valid person details 1`] = `
+[
+  {
+    "age": 32,
+    "email": "john@xyz.com",
+    "gender": "male",
+    "name": "John Doe",
+    "phone": "1234567890",
+  },
+  {
+    "age": 31,
+    "email": "jane@xyz.com",
+    "gender": "female",
+    "name": "Jane Doe",
+    "phone": "1234567899",
+  },
+]
+`;
